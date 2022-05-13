@@ -1,38 +1,100 @@
-.App {
+body, html{
+  margin:0;
+  background-color: teal;
+}
+h1{
+  color:tomato;
   text-align: center;
+  font-size: 50px;
+  font-family: fantasy;
+  margin:0px 0px;
+
+}
+.form-page{
+  display: block;
+  border:1px solid white;
+  box-shadow: 10px 10px 10px 1px white;
+  width:55%;
+  height: max-content;
+  margin:20px auto;
+  color:white;
+  padding:20px;
+}
+label{
+  font-size: 20px;
+  font-weight: bold;
+  margin: 5px;
+  text-align: left;
+  padding-right: 50px;
+}
+input{
+  width:300px;
+  border-radius: 10px;
+}
+.submit{
+  text-align: center;
+  width:350px;
+  margin: 10px 70px;
+  background-color: white;
+  color:black;
+  font-size: 20px;
+  border:0px ;
+  border-radius: 20px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.books{
+  border:1px solid gold;
+  margin:10px;
+  background-color: white;
+  color:teal;
+  display:flex;
+  padding:20px;
+  margin:30px 30px 0px 30px ;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.deUp{
+  width:150px;
+  margin: 10px 70px;
+  background-color: teal;
+  color:white;
+  font-size: 20px;
+  border:0px ;
+  border-radius: 20px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.deUpdate{
+  width:250px;
+  margin: 10px 100px;
+  background-color: teal;
+  color:white;
+  font-size: 20px;
+  border:0px ;
+  border-radius: 20px;
 }
-
-.App-link {
-  color: #61dafb;
+.showbook{
+  color:teal;
+  margin:5px 80px;
+  background-color: tan;
+  padding:20px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+h3{
+  text-align: center;
+  font-weight: bold;
+  font-family: cursive;
+}
+span{
+  padding:1px 5px;
+}
+strong{
+  color:black;
+}
+.allbook{
+  width:200px;
+  background-color:salmon;
+  color:white;
+  font-size: 16px;
+  border:0px;
+  border-radius: 50px;
+  margin:50px auto;
+  padding:10px 30px;
+  display:flex;
+  text-align: center;
 }
